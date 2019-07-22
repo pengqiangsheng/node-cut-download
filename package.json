@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "koa": "^2.5.3",
+    "opn": "^5.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "download": "node client_index.js"
+  }
+}
