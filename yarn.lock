@@ -798,6 +798,10 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.qima-inc.com/is-typedarray/download/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
+is-wsl@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-wsl/-/is-wsl-1.1.0.tgz#1f16e4aa22b04d1336b66188a66af3c600c3a66d"
+
 isstream@~0.1.2:
   version "0.1.2"
   resolved "http://registry.npm.qima-inc.com/isstream/download/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
@@ -898,8 +902,8 @@ koa@^2.5.3:
     vary "^1.1.2"
 
 lodash@^4.13.1, lodash@^4.17.4:
-  version "4.17.11"
-  resolved "http://registry.npm.qima-inc.com/lodash/download/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -962,6 +966,12 @@ on-finished@^2.3.0:
 only@~0.0.2:
   version "0.0.2"
   resolved "http://registry.npm.qima-inc.com/only/download/only-0.0.2.tgz#2afde84d03e50b9a8edc444e30610a70295edfb4"
+
+opn@^5.1.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"
+  dependencies:
+    is-wsl "^1.1.0"
 
 os-homedir@^1.0.0:
   version "1.0.2"
